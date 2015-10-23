@@ -1,0 +1,58 @@
+*
+{
+	margin:0;
+	border:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.wrapper
+{
+	width:100%;
+}
+
+ul
+{
+	text-decoration:none;
+}
+
+li
+{
+	float:left;
+	display:block;
+	margin: 2px;	
+}
+img
+{
+	width:100%;
+	height:auto;
+}
+
+		
+		
+@media all and (min-width: 600px)
+{
+
+	li
+	{
+		width:49%;
+		margin: 2px;
+	}
+}
+
+@media all and (min-width:1024px)
+{
+
+	li
+	{
+		width:32%;
+		margin: 2px;
+	}
+	#wrapper
+	{
+		width:1024px;
+		align-content:center;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
